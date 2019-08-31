@@ -80,5 +80,12 @@ footer a{
 .flex-item{
     padding: 10px 0px 10px 0px;
 }
+.navbar-nav,
+.mr-auto {
+    flex: 1;
+    margin: auto !important;
+    display: flex;
+    justify-content: space-around;
+}
 
 
