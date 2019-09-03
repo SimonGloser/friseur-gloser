@@ -87,5 +87,24 @@ footer a{
     display: flex;
     justify-content: space-around;
 }
+.flex-column-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.font-blue{
+   color: #224afb;
+    font-size: 40px;
+}
+.font-red{
+    color: #ED462F;
+    font-size: 40px;
+}
 
+hr.custom-divider{
+    height: 15px;
+    background-image: linear-gradient(to top right,#8299fd,#224afb);
+    border-radius: 5px;
+}
 
