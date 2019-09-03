@@ -107,4 +107,26 @@ hr.custom-divider{
     background-image: linear-gradient(to top right,#8299fd,#224afb);
     border-radius: 5px;
 }
+.container-content-preisliste{
+
+
+}
+.flex-column-preisliste{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.flex-container-preisliste-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+}
+.flex-preislist-item{
+    flex: 0 1 auto;
+    margin: 15px 15px 15px 15px;
+
+}
 
