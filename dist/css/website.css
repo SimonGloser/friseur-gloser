@@ -129,4 +129,8 @@ hr.custom-divider{
     margin: 15px 15px 15px 15px;
 
 }
+.flex-container-center{
+    display: flex;
+    justify-content: center;
+}
 
