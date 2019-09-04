@@ -134,3 +134,42 @@ hr.custom-divider{
     justify-content: center;
 }
 
+.table-flex-container{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+.container-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.table-cell-left{
+    text-align: left;
+    width: 300px;
+
+}
+.table-cell-right{
+    text-align: right;
+    width: 100px;
+    color: #ED462F;
+}
+.table-cell-colored{
+    background-color: aliceblue;
+}
+
+
+
+table {
+    border-collapse: collapse;
+}
+.gfg {
+    border-collapse:separate;
+    border-spacing:0 10px;
+}
+
+
